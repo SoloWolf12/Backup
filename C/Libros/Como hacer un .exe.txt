@@ -1,0 +1,26 @@
+Se necesita tener instalado un compilador, si es lunix/ras seguro esta metido, si no, usar GCC
+
+www.mingGW.org, descargar el soft e instalar los paquetes
+
+mingw32-gcc  bin/dev/doc/lang/lig
+
+
+Usar simbolo de sistema y poner GCC para saber si funciona, de no hacerlo ir a 
+
+este equipo/propiedades/con avanzada de sistema/variables de entorno/var sistema/nuevo y poner la ruta de la instalación hasta la carpeta bin incluida, seguramente sera "C:\MinGW\bin"
+
+
+Ya en simbolo de sistema
+
+usar la linea gcc "archivo.c" -o "archivo.exe"  
+
+Si no es windows, en vez de .exe usar .out
+
+Si el sistema se niega a hacerlo, agregar /.   "/.exe /.out" 
+
+"It also says that if the file is not in the correct path i can either add it to the path or run ./a.out"
+
+
+cd 
+cd..
+ls // dir
