@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"><h1>Ploteados Restitution</h1></a>
+    </header>
+    <nav>
+      <a href="/pages/beneficios.html"><h3>¿Porque elegirnos?</h3></a>
+
+      <a href="/pages/ubicaciones.html"><h3>Donde encontrarnos</h3></a>
+
+      <a href="/pages/contacto.html"><h3>Contacto</h3></a>
+
+      <a href="/pages/empresas.html"><h3>Para Empresas</h3></a>
+    </nav>
+    <section id="contacto">
+      <h4>Contacto</h4>
+      <form action="#" method="post">
+        <input type="text" name="nombre" placeholder="Nombre" />
+        <br />
+        <input type="text" name="Apellido" placeholder="Apellido" />
+        <br />
+        <input type="email" name="Email" placeholder="Email" />
+        <br />
+        <select name="Producto a Plotear">
+          <option value="starter" hidden>Elegir una Opcion</option>
+          <option value="Vehiculo">Vehiculo</option>
+          <option value="Notebook">Notebook</option>
+          <option value="Electrodomestico">Electrodomestico</option>
+          <option value="Vidrios y Paredes">Vidrios y Paredes</option>
+        </select>
+        <br />
+
+        <textarea
+          name="Descripcion"
+          cols="30"
+          rows="10"
+          placeholder="Descripcion"
+        ></textarea>
+
+        <br />
+
+        <label for="Empresas">Para Empresas</label>
+        <input type="checkbox" name="Empresa" />
+        <br />
+        <input type="reset" name="Enviar Formulario" />
+        <input type="submit" value="Enviar Formulario" />
+      </form>
+    </section>
+  </body>
+</html>
