@@ -1,0 +1,42 @@
+body 
+{
+    background-color: blue;
+}
+
+#cabeceraweb
+{
+    background-color: aqua;
+}
+
+#navPrincipal
+{
+    background-color: brown;
+}
+
+#barraLateral
+{
+    background-color: aqua;
+    float: left;
+    height:900px;
+}
+
+#contenidoPrincipal
+{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 200px;
+    background-color: yellowgreen;
+}
+
+#piePrincipal
+{
+    background-color: yellow;
+    clear: both;
+    margin-top: 10px;
+}
+
+li
+{
+    background-color: violet;
+    display: inline;
+}

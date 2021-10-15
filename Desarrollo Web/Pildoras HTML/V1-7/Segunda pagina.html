@@ -5,31 +5,38 @@
     <meta name="description" content= "Página enseñanza html 5"/>
     <meta name="keywords" contents="html5, css3, Javascript, diseño web"/>
     <title>Página de programacion en HTML5</title>
-    <link rel="stylesheet" href="mihojadeestilos.css"/>
+    <link rel="stylesheet" href="CSS/mihojadeestilos.css" />
+    <style>
+        #barraLateral
+        {
+            background-color: rgb(80, 29, 29);
+        }
+    </style>
 </head>
 
 <body>
-    <header>                                            
-        <h1>este seria el titulo de nuestra web</h1>
+    <header id="cabeceraweb">
+        <h1>Este seria el titulo de nuestra web</h1>
     </header>
 
-<nav>   <!Este es un comentario>
+<nav id="navPrincipal">
     <ul>
         <li>Quienes somos</li>
-        <li>Nuestros productos</li>
+        <li style="background-color:green";> Nuestros productos</li>
         <li>Contactanos</li>
         <li>Precios</li>
     </ul>
 
 </nav>
 
-<aside>
+<aside id="barraLateral">
+    
     <blockquote>Primer elemento</blockquote>
     <blockquote>Segundo elemento</blockquote>
     <blockquote>Tercer elemento</blockquote>
 </aside>
 
-<section>
+<section id="contenidoPrincipal">
   
     <article>
 
@@ -40,9 +47,14 @@
             </hgroup>
         </header>
 
-        <p>noticia 1</p>
-        <p>seguimos en noticia 1</p>
-        <p>terminamos con noticia 1</p>
+        <figure>
+            <img src="imagenes/img1.jpg" alt="homero">
+            <figcaption> Homo feliz </figcaption>
+        </figure>
+
+        <p> <mark>Noticia 1</mark></p>
+        <p> <em> Seguimos en noticia 1 </em></p>
+        <p>terminamos con  <strong>noticia 1</strong> </p>
   
         <footer>
             <p>comentario de usuarios</p>
@@ -56,8 +68,8 @@
             <h2>Titulo noticia 2</h2>
         </header>
 
-        <p>noticia 2</p>
-        <p>seguimos en noticia 2</p>
+        <p><cite> Lo que el viento se llevó</cite></p>
+        <p>Una de las pelis mas largas de la historia es <cite> Lo que el viento se llevó</cite></p>
         <p>terminamos con noticia 2</p>
 
         <footer>
@@ -73,6 +85,8 @@
                 <h2>Titulo noticia 3</h2>
                 <h3>Subtitulo notica 3</h3>
             </hgroup>
+
+            <time> Noticia publicada el dia 31/01/2004</time>
         </header>
 
         <p>noticia 3</p>
@@ -82,8 +96,8 @@
 
 </section>
 
-<footer>
-    Derechos reservados telefono:12345678
+<footer id="piePrincipal">
+   <small>Derechos reservados</small> <address>telefono:12345678</address>
 </footer>
 
 </body>

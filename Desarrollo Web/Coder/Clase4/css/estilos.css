@@ -1,0 +1,29 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1
+{
+    color:brown;
+    margin: 10px;
+}
+h1.colorRed
+{
+    color:red
+}
+p
+{
+    margin: 0px;
+}
+
+.normal
+{
+    font-style: normal;
+}
+
+.italic
+{
+    font-style: italic;
+}
