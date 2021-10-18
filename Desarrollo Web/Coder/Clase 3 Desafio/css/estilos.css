@@ -1,0 +1,52 @@
+h2
+{
+background-color: rgb(155, 159, 181);
+color: brown;
+}
+p
+{
+color: blue;
+}
+ul
+{
+    background-color: rgb(140, 114, 132)
+}
+body
+{
+    background-color:rgb(122, 97, 116)    
+}
+header
+{
+    background-color: rgb(177, 183, 209);
+}
+footer
+{
+    background-color: rgb(177, 183, 209);
+
+}
+section
+{
+    background-color: rgb(209, 177, 200);
+}
+
+.redondear
+{
+    border-radius:50%;
+}
+
+#encuesta
+{
+    color: brown;
+}
+
+tbody
+{
+    font-size: larger;
+}
+th
+{
+    font-size: large;
+}
+
+
+

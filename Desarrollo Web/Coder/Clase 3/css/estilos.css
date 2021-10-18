@@ -1,0 +1,33 @@
+h1
+{
+    color: aquamarine;
+}
+p
+{
+    color:blue
+}
+section
+{
+    background-color: brown;
+    width: 800px;
+    height: 1500px;
+
+}
+
+section article
+{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+.bordesRedondeados
+{
+    border-radius: 30px;
+    font-size: larger;
+}
+
+#productos
+{
+    min-width:min-content ;
+    background-color:cadetblue ;
+}
