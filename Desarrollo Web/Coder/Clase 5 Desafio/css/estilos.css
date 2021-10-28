@@ -87,7 +87,7 @@ table {
 nav ul {
   margin: 0 auto;
   text-align:center;
-  height: ;
+  ;
   
 }
 nav ul li {
@@ -149,4 +149,16 @@ nav ul li:hover {
 .actualMenu
 {
   font-size: 150%;
+}
+
+.flex
+{
+  background-color: bisque;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: .5rem;
+}
+.innerFlex
+{
+  background-color: blueviolet;
 }

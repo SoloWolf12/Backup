@@ -29,10 +29,11 @@ p {
 }
 ul {
   background-color: rgb(140, 114, 132);
+  list-style: none;
 }
 ul li {
   margin-left: 1.5rem;
-  list-style: circle;
+
   list-style-position: outside;
 }
 
@@ -73,6 +74,7 @@ th {
 table {
   margin-left: 1rem;
   margin-right: 1rem;
+  background-color: green;
 }
 .margenCero {
   background-color: rgb(155, 159, 181);
@@ -86,17 +88,16 @@ table {
 
 nav ul {
   margin: 0 auto;
-  text-align:center;
-  height: ;
-  
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 nav ul li {
-  display: inline-block;
   background-color: grey;
   padding: 0.3rem 1rem;
   border-radius: 30px;
-  
-  
+  align-self: baseline;
 }
 nav a {
   text-decoration: none;
@@ -114,7 +115,6 @@ section {
   text-align: center;
 }
 
-
 .left {
   float: left;
   text-align: left;
@@ -126,7 +126,6 @@ section {
 div {
   width: 150px;
   height: 150px;
-  background-color: green;
   display: inline;
 }
 
@@ -146,7 +145,31 @@ nav ul li:hover {
   display: block;
 }
 
-.actualMenu
-{
+.actualMenu {
   font-size: 150%;
+}
+
+.flexDiv {
+  width: 60%;
+  height: 150%;
+  margin: 0rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexArticle,
+.flexArticle2 {
+  margin: 1rem 15rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+}
+.flexArticle2 {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.flexArticle img,
+.flexArticle2 img {
+  width: 30rem;
 }
