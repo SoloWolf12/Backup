@@ -1,0 +1,307 @@
+* 
+{
+  font-family: "Raleway", sans-serif;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body 
+{
+  background-color: rgb(188, 212, 222);
+  font-size: 1rem;
+}
+
+h2 
+{
+  color: brown;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+h3 
+{
+  color: brown;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p 
+{
+  color: blue;
+  font-size: 1rem;
+}
+
+small
+{
+  font-size: 0.5rem;
+}
+
+body 
+{
+  background-color: rgb(188, 212, 222);
+  font-size: 1rem;
+}
+
+h2 
+{
+  color: brown;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+h3 
+{
+  color: brown;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p 
+{
+  color: blue;
+  font-size: 1rem;
+}
+
+ul 
+{
+    list-style: none;
+    li
+    {
+        list-style-position: outside;
+    }
+}
+
+header 
+{
+  background-color: rgb(165, 204, 209);
+}
+
+section 
+{
+  background-color: rgb(188, 212, 222);
+}
+
+footer
+{
+   /*background-color: brown; */
+  background: linear-gradient(to top, rgb(115, 144, 167), rgb(188, 212, 222));
+}
+
+.navfooter
+{
+  background: linear-gradient(to top, rgb(115, 144, 167), rgb(188, 212, 222));
+}
+
+tbody
+{
+  font-size: larger;
+}
+
+th 
+{
+  font-size: large;
+}
+
+table 
+{
+  background-color: green;
+}
+
+header 
+{
+  background:
+    linear-gradient
+    (
+      to top,
+    rgb(188, 212, 222),
+    rgb(115, 144, 167)
+    );
+    
+  text-align: center;
+}
+
+#logo
+{
+  display: flex;
+  justify-content: center;
+}
+
+#encuesta 
+{
+  color: brown;
+}
+
+// *Se modificara el bootstrap en proximas entregas //
+nav
+{
+  ul
+  {
+    li 
+      {
+        background-color: grey;
+        border-radius: 30px;
+        padding: 0.2rem .5rem;
+        align-self: center;
+        transition: background-color 0.1s, font-size 0.1s;
+
+        &:hover
+        {
+          background-color: darkred;
+          font-size: 150%;
+        }
+      }
+  }
+
+    a
+    {
+        text-decoration: none;
+        color: darkorange;
+    }
+}
+
+
+ // *Aplicado BEM //
+.principal__body__content
+{ 
+    &--media
+    {
+        transition: transform 0.25s, filter 0.25s;
+
+        &:hover
+        {
+            transform: scale(1.1,1.1);
+            filter: brightness(115%) contrast(115%);
+        }
+    }
+}
+
+div
+{
+    p
+    {
+        display:inline;
+    }
+
+    input
+    {
+        display: inline;
+    }
+}
+
+.actualMenu
+{ 
+    a
+    {
+        /*font-size: 150%;    volver a ponerlo*/
+        color: rgb(14, 22, 49);
+    }
+}
+
+img
+{
+  max-width: 100%;
+}
+// *Aplicado BEM //
+.principal
+{
+  display: grid;
+  width: 90%;
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto;
+  gap: 1.5rem;
+  
+  &__body
+  {
+      display: grid;
+      gap: 1rem;
+  }
+}
+
+.secundario
+{
+  display: grid;
+  width: 80%;
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  text-align: left;
+  margin: 1rem auto;
+  gap: 1.5rem;
+  
+}
+
+form
+{
+  display: grid;
+  width: 90%;
+  justify-content:left;
+  text-align: center;
+  margin: 0.5rem auto;
+
+  aside
+  {
+      display: inline;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) 
+{
+  nav
+  { 
+      ul
+      {
+          display: flex; 
+          justify-content: space-around;
+          margin: 0 10%;
+      }
+  }
+  // *Aplicado BEM // 
+  .principal
+  {
+    &__body
+    {
+      display: grid;
+      gap: 1rem;
+      
+      &__content
+      {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        align-items: center;
+        gap: 0 1rem;
+      }     
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) 
+{
+  // *Aplicado BEM //
+  .principal__body__content--invertido
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: right;
+    align-items: center;
+    gap: 0 1rem;
+    grid-template-areas: "text img";
+    
+      &--media
+      {
+        grid-area: img;
+      }
+      &--text
+      {
+        grid-area: text;
+      }
+  }
+}
+
