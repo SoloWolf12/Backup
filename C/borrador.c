@@ -9,8 +9,8 @@ int main()
     for (int i = 0; i < potencia; i++)
     {
         res = res * base;
-        printf("%d\n", res);
+        printf("%d\n", res)
     }
 }
 
-/* !dfd  */
+/*pito pene caca */
